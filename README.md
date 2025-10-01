@@ -58,8 +58,20 @@ pip freeze > requirements.txt
 Create a `.env` file at the project root:
 
 ```
+IMPORTANT!! If you don't have an OpenAI key, go to
+
+https://platform.openai.com/api-keys
+
+You'll need to:
+
+~ Add a payment method
+~ Go to API Keys and create one, save it as that will be your API key.
+
+DON'T UPLOAD IT ANYWHERE, you'll need to delete it and create another one.
+```
+
+```
 OPENAI_API_KEY=sk-your_api_key_here
-OPENAI_MODEL=gpt-4o-mini
 ```
 
 ---
